@@ -363,6 +363,48 @@ a:before, a:after {
 	-moz-transition: all .3s;
 	transition: all .3s;
 }
+#bio_team {
+	
+	padding: 60px 0;
+	text-align: center;
+	background-size: cover;
+}
+#bio_team hr {
+	display: block;
+	height: 3px;
+	border: 0;
+	margin: 3em 0;
+	padding: 0;
+	width: 50%;
+	left: 25%;
+	position: relative;
+	border: none;
+}
+#bio_team p {
+	color: #000;
+}
+#bio_team H4 {
+	padding-top: 10px;
+	font-weight:bold;
+}
+#bio_team p.large {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+#bio_team .fa {
+	width: 30px;
+	height: 30px;
+	margin: 0 3px;
+	border-radius: 100%;
+	font-size: 15px;
+	line-height: 30px;
+	outline: 0;
+	color: #fff;
+	background-color: #67c5d3;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
 #team .fa:hover {
 	background-color: #2ea0b1;
 }
@@ -593,4 +635,13 @@ body .header {
 #headerwrap p {
 	font-size: 20px;
 }
+}
+
+.vertical-center{
+	position: relative;
+	margin-top: 100px;
+}
+.text-justify{
+	text-align: justify;
+    text-justify: inter-word;
 }

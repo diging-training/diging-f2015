@@ -1,0 +1,35 @@
+//Just this should be enough
+//Generated code for the timeline
+
+<a class="twitter-timeline" href="https://twitter.com/Diging2015" data-widget-id="637038879258730496">Tweets by @Diging2015</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}
+(document,"script","twitter-wjs");</script>
+
+
+// If not, this is basically the same thing again
+<a class="twitter-timeline"
+  data-widget-id="637038879258730496"
+  href="https://twitter.com/Diging2015"
+  data-screen-name="Diging2015">
+Tweets by @Diging2015
+</a>
+
+
+Override show replies
+<a class="twitter-timeline"
+  data-widget-id="637038879258730496"
+  href="https://twitter.com/Diging2015/with_replies"
+  data-screen-name="Diging2015">
+Tweets by @Diging2015
+</a>
+
+JavaScript Factory functions
+twttr.widgets.createTimeline(
+  "637038879258730496",
+  document.getElementById("container"),
+  {
+    screenName: "Diging2015"
+  }
+);
+
